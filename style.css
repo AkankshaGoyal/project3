@@ -1,0 +1,124 @@
+
+.headerpart
+{
+	width:2500px;
+	height:200px;
+	border-style: groove;
+	background-color:black;
+    background-image:url('photos/logo.jpg');
+    background-repeat:no-repeat;
+h1{
+	color:black;
+}
+}
+.logo{
+	width:100px;
+	margin-top: 5px;
+}
+body{
+
+	margin:0px;
+	padding:0px;
+	color:black;
+	background:white;
+}
+ul{
+	margin:0px;
+	padding:0px;
+}
+.my_menu{
+	position:absolute;
+	width:100%;
+	height:auto;
+	background-color:white;
+
+}
+.menu{
+	width:2500px;
+	height:80px;
+	background-color:white;
+}
+.menu li{
+	list-style:none;
+	width:200px;
+	height:50px;
+	background-color:grey;
+	/*margin: 5px;*/
+    text-align: center;
+    line-height: 60px;
+    float:left;
+}
+.menu li:hover{
+	background-color:black;
+}
+.menu li a{
+	color:white;
+	display:block;
+    text-decoration: none;
+}
+.logo_li:hover{
+	background-color:black:important;
+}
+.menu  ul li{
+	margin:0px;
+}
+.menu ul{
+	display:none;
+}
+.menu li:hover ul{
+	display:block;
+}
+h3{
+	color:#b14233;
+	padding:10px;
+}
+.bodypart
+{
+	width:1800px;
+	height:600px;
+	margin-top:5px;
+}
+.bodypart h1
+{
+  background:bl
+}
+
+.bodypart.imagepart
+{
+	width:800px;
+	height:600px;
+	border-style:groove;
+}
+.bodypart.foundermessage{
+	background-color:lightgrey;
+}
+.bodypart.foundermessage p{
+	font-family: monospace;
+}
+.bodypart.foundermessage h1{
+	font-family: monospace;
+}
+.bodypart.newspart
+{
+	width:220px;
+	height:550px;
+	border-style:groove;
+   float:right;
+}
+.bodypart .newspart h2
+{
+	color:green;
+}
+.gallery h2{
+	font-family:monospace;
+	color:red;
+}
+.footerpart
+{
+	width:2500px;
+	height:500px;
+	margin-in-top:150px;
+	background-color:grey;
+	border-style:groove;
+	font-variant: monospace;
+}
